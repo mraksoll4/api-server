@@ -1,6 +1,6 @@
 # Getting started
 
-This is RESTful API which will allow you to interact with Bitweb blockchain.
+This is RESTful API which will allow you to interact with LitecoinFinance blockchain.
 
 # How to use it?
 
@@ -29,7 +29,7 @@ $ pip3 install -r requirements.txt
 $ python3 app.py
 ```
 
-All request should be send to this endpoint: `https://api.bitwebcore.org/`
+All request should be send to this endpoint: `https://api.ltfn.scalaris.org/`
 
 Responce have following fields:
 

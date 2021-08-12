@@ -24,10 +24,10 @@ def reward(height):
     if halvings >= 64:
         return 0
 
-    return int(satoshis(50.00000000) // (2 ** halvings))
+    return int(satoshis(200.00000000) // (2 ** halvings))
 
 def supply(height):
-    reward = satoshis(50.00000000)
+    reward = satoshis(200.00000000)
     halvings = 840000
     halvings_count = 0
     supply = reward
@@ -44,7 +44,7 @@ def supply(height):
 
     return {
         "halvings": int(halvings_count),
-        "supply": int(supply - 10000000000 + 258000000000000)
+        "supply": int(supply - 17520500000000000)
     }
 
 def satoshis(value):
